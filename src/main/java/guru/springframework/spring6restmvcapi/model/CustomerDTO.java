@@ -22,7 +22,6 @@ public class CustomerDTO {
     private UUID id;
 
     @NotBlank
-    @NotNull
     @Size(max = 50)
     private String customerName;
     private Integer version;

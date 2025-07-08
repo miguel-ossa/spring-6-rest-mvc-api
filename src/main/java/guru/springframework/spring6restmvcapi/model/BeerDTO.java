@@ -24,14 +24,12 @@ public class BeerDTO {
     private Integer version;
 
     @NotBlank
-    @NotNull
     @Size(max = 50)
     private String beerName;
 
     @NotNull
     private BeerStyle beerStyle;
 
-    @NotNull
     @NotBlank
     @Size(max = 255)
     private String upc;
