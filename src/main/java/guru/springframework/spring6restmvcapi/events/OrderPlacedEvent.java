@@ -6,14 +6,11 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class OrderPlacedEvent {
-
+    // This event is triggered when a beer order is placed
     private BeerOrderDTO beerOrderDTO;
 }

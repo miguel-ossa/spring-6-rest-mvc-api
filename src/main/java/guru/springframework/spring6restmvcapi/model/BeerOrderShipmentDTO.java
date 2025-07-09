@@ -10,9 +10,6 @@ import lombok.NoArgsConstructor;
 import java.sql.Timestamp;
 import java.util.UUID;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @Data
 @Builder
 @AllArgsConstructor

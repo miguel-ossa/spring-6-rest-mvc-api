@@ -9,9 +9,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @Data
 @Builder
 @AllArgsConstructor

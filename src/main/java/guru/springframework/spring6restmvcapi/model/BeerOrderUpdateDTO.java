@@ -10,9 +10,6 @@ import java.math.BigDecimal;
 import java.util.Set;
 import java.util.UUID;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @Data
 @Builder
 @AllArgsConstructor
